@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 instance
 testes.py
+comunidade.db
 
 __pycache__/
 *.py[cod]
@@ -67,7 +68,6 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
-comunidade.db
 # Scrapy stuff:
 .scrapy
 
