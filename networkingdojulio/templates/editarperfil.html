@@ -47,7 +47,7 @@
                         {% endif %}
                     </div>
                     <hr>
-                    <p>Cursos</p>
+                    <p>Talentos:</p>
                     {% for campo in form %}
                         {% if 'curso_' in campo.name %}
                             <div class="form-group">
@@ -56,8 +56,6 @@
                             </div>
                         {% endif %}
                     {% endfor %}
-
-
                 </fieldset>
                 {{ form.botao_submit_editarperfil(class="btn btn-primary mt-2") }}
             </form>
